@@ -22,4 +22,4 @@ RUN uv sync --frozen --no-dev
 RUN useradd --system --create-home app && chown -R app:app /app
 USER app
 
-CMD ["caa-bot"]
+CMD ["bot"]

@@ -1,4 +1,4 @@
-# caa-bot
+# brand-voice-tg-bot
 
 A Telegram bot that generates marketing copy in a fixed **brand voice** via the
 Gemini API. Send it a task in plain text — a social post, a product description,
@@ -32,7 +32,7 @@ to reuse.
 Needs Docker with the Compose plugin.
 
 ```sh
-git clone <this repo> && cd caa-bot
+git clone https://github.com/Anach0ret/brand-voice-tg-bot.git && cd brand-voice-tg-bot
 
 cp .env.example .env
 # edit .env — set BOT_TOKEN and GEMINI_API_KEY
@@ -58,7 +58,7 @@ cp .env.example .env
 cp prompts/system_prompt.example.md prompts/system_prompt.md
 cp prompts/checklist.example.md     prompts/checklist.md
 
-uv run caa-bot
+uv run bot
 ```
 
 ## Configuration (`.env`)
@@ -73,7 +73,7 @@ uv run caa-bot
 ## Layout
 
 ```
-src/caa_bot/
+src/brand_voice_tg_bot/
   __init__.py    main() — wire dependencies, start long polling
   config.py      Config      — reads .env
   prompts.py     Prompts     — loads prompts/ (falls back to *.example.md)

@@ -1,4 +1,4 @@
-"""caa-bot — точка входа: сборка зависимостей и запуск."""
+"""brand-voice-tg-bot — точка входа: сборка зависимостей и запуск."""
 
 from __future__ import annotations
 
@@ -7,12 +7,12 @@ import logging
 from google import genai
 from telegram.ext import Application
 
-from caa_bot.assistant import Assistant
-from caa_bot.config import Config
-from caa_bot.handlers import Commands
-from caa_bot.modelpool import ModelPool
-from caa_bot.prompts import Prompts
-from caa_bot.stats import Stats
+from brand_voice_tg_bot.assistant import Assistant
+from brand_voice_tg_bot.config import Config
+from brand_voice_tg_bot.handlers import Commands
+from brand_voice_tg_bot.modelpool import ModelPool
+from brand_voice_tg_bot.prompts import Prompts
+from brand_voice_tg_bot.stats import Stats
 
 
 def main() -> None:

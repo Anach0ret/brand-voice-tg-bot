@@ -29,7 +29,7 @@ wheels = [
 ]
 
 [[package]]
-name = "caa-bot"
+name = "brand-voice-tg-bot"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

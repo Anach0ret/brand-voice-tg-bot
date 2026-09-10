@@ -1,5 +1,5 @@
 [project]
-name = "caa-bot"
+name = "brand-voice-tg-bot"
 version = "0.1.0"
 description = "Telegram bot that writes marketing copy in a fixed brand voice via the Gemini API"
 readme = "README.md"
@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.scripts]
-caa-bot = "caa_bot:main"
+bot = "brand_voice_tg_bot:main"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
