@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info
+
+# venv
+.venv
+
+# секреты
+.env
+
+# рабочие промпты под конкретный бренд — в репозитории только *.example.md
+prompts/system_prompt.md
+prompts/checklist.md
